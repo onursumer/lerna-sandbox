@@ -1,0 +1,22 @@
+# Update package versions
+name: Update Package Version
+
+on:
+  push:
+    # branches to consider in the event; optional, defaults to all
+    branches:
+      - master
+    # only publish modules under packages
+    paths:
+      - "packages/**/*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.20.0'
+      - run: yarn
+      - run: yarn updateVersions

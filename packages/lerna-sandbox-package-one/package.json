@@ -1,0 +1,7 @@
+{
+  "name": "lerna-sandbox-package-one",
+  "version": "0.1.0-beta.1",
+  "description": "Package One",
+  "main": "index.js",
+  "license": "MIT"
+}

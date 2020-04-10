@@ -1,0 +1,1 @@
+lerna version patch --yes

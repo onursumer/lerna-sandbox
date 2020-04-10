@@ -1,0 +1,22 @@
+{
+  "name": "lerna-sandbox",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "Lerna Sandbox",
+  "main": "index.js",
+  "repository": "https://github.com/onursumer/lerna-sandbox.git",
+  "author": "Onur Sumer <s.onur.sumer@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lerna": "3.19.0"
+  },
+  "scripts": {
+    "publish": "./scripts/publish.sh",
+    "updateVersion": "./scripts/version.sh"
+  }
+}
