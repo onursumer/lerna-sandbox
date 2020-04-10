@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: '10.20.0'
       - run: yarn
-      - run: yarn updateVersions
+      - run: yarn updateVersion
