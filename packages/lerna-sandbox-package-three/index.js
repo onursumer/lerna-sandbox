@@ -6,3 +6,5 @@ function packageThree() {
 }
 
 console.log(packageThree());
+
+exports.packageThree = packageThree;
