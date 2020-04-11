@@ -1,10 +1,10 @@
 {
   "name": "lerna-sandbox-package-two",
-  "version": "0.1.5-beta.666",
+  "version": "0.1.5",
   "description": "Package Two",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lerna-sandbox-package-one": "^0.1.666-beta.0"
+    "lerna-sandbox-package-one": "^0.1.666"
   }
 }
