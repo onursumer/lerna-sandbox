@@ -6,3 +6,4 @@ Let's fetch tags?
 Master of puppets
 Show me what is different since the last release, please
 You gotta fetch origin
+All you needed was depth
