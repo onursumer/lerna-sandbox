@@ -22,5 +22,6 @@ jobs:
           node-version: '10.20.0'
       - run: yarn
       - run: yarn updateVersion
+      - run: yarn publishModules
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

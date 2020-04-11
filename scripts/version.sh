@@ -11,4 +11,4 @@ git config --global github.token $GITHUB_TOKEN
 
 git fetch --tags
 
-lerna version patch --yes --no-push
+lerna version patch --yes

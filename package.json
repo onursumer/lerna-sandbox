@@ -16,7 +16,7 @@
     "lerna": "3.19.0"
   },
   "scripts": {
-    "publish": "./scripts/publish.sh",
+    "publishModules": "./scripts/publish.sh",
     "updateVersion": "./scripts/version.sh"
   }
 }

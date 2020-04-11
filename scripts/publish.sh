@@ -1,1 +1,3 @@
-lerna publish from-git
+#!/usr/bin/env bash
+
+lerna publish from-package
