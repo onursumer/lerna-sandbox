@@ -9,7 +9,7 @@ git config --local user.email "LernaPublishBot@actions.com"
 git config --local user.name "Lerna Publish Bot"
 git config --global github.token $GITHUB_TOKEN
 
-git tag
+git fetch --tags
 
 lerna changed
 lerna version patch --yes --no-push
