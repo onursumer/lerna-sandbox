@@ -3,7 +3,7 @@ function packageFour() {
 }
 
 function wouldYouPublishMe() {
-    return "Maybe!";
+    return "Nothing changed?";
 }
 
 exports.packageFour = packageFour;
