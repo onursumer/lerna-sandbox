@@ -1,6 +1,6 @@
 {
   "name": "lerna-sandbox-package-three",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Package Three",
   "main": "index.js",
   "license": "MIT",
