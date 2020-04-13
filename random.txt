@@ -3,3 +3,4 @@ Let's try again!
 One last time, then we can try updating a module
 Now this will trigger lerna publish! Is this gonna mess up the release drafter?
 Okay, let's see what happens to the release draft after auto tags are in!
+This one comes right after a lerna auto release, let's see the new version that release drafter comes up with
