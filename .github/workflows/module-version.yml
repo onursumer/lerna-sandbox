@@ -1,29 +1,29 @@
 # Update package versions
-name: Update Package Version
-
-on:
-  push:
-    # branches to consider in the event; optional, defaults to all
-    branches:
-      - master
-    # only publish modules under packages
-    paths:
-      - "packages/**/*"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.LERNA_BOT_TOKEN }}
-      - run: git fetch origin +refs/tags/*:refs/tags/*
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '10.20.0'
-      - run: yarn
-      - run: yarn updateVersion
-      - run: yarn publishModules
-        env:
-          GITHUB_TOKEN: ${{ secrets.LERNA_SANDBOX_OWNER }}
+#name: Update Package Version
+#
+#on:
+#  push:
+#    # branches to consider in the event; optional, defaults to all
+#    branches:
+#      - master
+#    # only publish modules under packages
+#    paths:
+#      - "packages/**/*"
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#        with:
+#          fetch-depth: 0
+#          token: ${{ secrets.LERNA_SANDBOX_OWNER }}
+#      - run: git fetch origin +refs/tags/*:refs/tags/*
+#      - uses: actions/setup-node@v1
+#        with:
+#          node-version: '10.20.0'
+#      - run: yarn
+#      - run: yarn updateVersion
+#      - run: yarn publishModules
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.LERNA_SANDBOX_OWNER }}
