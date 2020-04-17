@@ -9,7 +9,7 @@ on:
     paths:
       - "packages/**/*"
 
-jobs:`
+jobs:
   dispatch:
     uses: peter-evans/repository-dispatch@v1
     with:
