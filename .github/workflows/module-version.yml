@@ -17,6 +17,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          token: ${{ secrets.LERNA_BOT_TOKEN }}
       - run: git fetch origin +refs/tags/*:refs/tags/*
       - uses: actions/setup-node@v1
         with:
@@ -24,5 +25,3 @@ jobs:
       - run: yarn
       - run: yarn updateVersion
       - run: yarn publishModules
-    env:
-      GITHUB_TOKEN: ${{ secrets.LERNA_TEST_TOKEN }}

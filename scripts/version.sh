@@ -4,7 +4,7 @@
 if [[ "$GITHUB_RUN_ID" ]]; then
   git config --local user.email "LernaPublishBot@actions.com"
   git config --local user.name "Lerna Publish Bot"
-  git config --global github.token $GITHUB_TOKEN
+  # git config --global github.token $GITHUB_TOKEN
 
   lerna version patch --yes
 else
