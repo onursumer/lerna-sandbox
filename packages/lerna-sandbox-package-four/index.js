@@ -3,7 +3,7 @@ function packageFour() {
 }
 
 function wouldYouPushToAProtectedBranch() {
-    return "Probably Not :(";
+    return "Probably Not :((";
 }
 
 exports.packageFour = packageFour;

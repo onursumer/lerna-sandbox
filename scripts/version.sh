@@ -5,9 +5,10 @@ if [[ "$GITHUB_RUN_ID" ]]; then
   git config --local user.email "LernaPublishBot@actions.com"
   git config --local user.name "Lerna Publish Bot"
   # git config --global github.token $GITHUB_TOKEN
-  git remote set-url origin https://onursumer:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
+  # git remote set-url origin https://onursumer:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
+  git config --list
 
-  lerna version patch --no-commit-hooks --yes
+  # lerna version patch --no-commit-hooks --yes
 else
   # locally just prompt version update but not create and push tags
   lerna version --no-git-tag-version --no-push
