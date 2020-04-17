@@ -6,7 +6,7 @@ if [[ "$GITHUB_RUN_ID" ]]; then
   git config --local user.name "Lerna Publish Bot"
   # git config --global github.token $GITHUB_TOKEN
 
-  lerna version patch --yes
+  lerna version patch --no-commit-hooks --yes
 else
   # locally just prompt version update but not create and push tags
   lerna version --no-git-tag-version --no-push
