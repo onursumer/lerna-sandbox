@@ -1,11 +1,11 @@
 {
   "name": "lerna-sandbox-package-three",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "Package Three",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lerna-sandbox-package-four": "^1.0.10",
+    "lerna-sandbox-package-four": "^1.0.11",
     "lerna-sandbox-package-two": "^0.1.7"
   }
 }
