@@ -5,7 +5,7 @@ if [[ "$GITHUB_RUN_ID" ]]; then
   git config --local user.email "LernaPublishBot@actions.com"
   git config --local user.name "Lerna Publish Bot"
   # git config --global github.token $GITHUB_TOKEN
-  git remote set-url origin https://cbioportal-devops:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
+  git remote set-url origin https://onursumer:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
 
   lerna version patch --no-commit-hooks --yes
 else
