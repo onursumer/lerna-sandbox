@@ -12,6 +12,7 @@ on:
 jobs:
   dispatch:
     steps:
+      - runs-on: ubuntu-latest
       - uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.LERNA_SANDBOX_OWNER }}
