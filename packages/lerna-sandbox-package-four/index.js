@@ -2,8 +2,8 @@ function packageFour() {
     return "I am an awesome package (4)";
 }
 
-function wouldYouPublishMe() {
-    return "Most likely, but what about the release drafter?";
+function wouldYouPushToAProtectedBranch() {
+    return "Why not?";
 }
 
 exports.packageFour = packageFour;

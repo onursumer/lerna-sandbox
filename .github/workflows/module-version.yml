@@ -25,4 +25,4 @@ jobs:
       - run: yarn updateVersion
       - run: yarn publishModules
     env:
-      GITHUB_TOKEN: ${{ secrets.LERNA_BOT_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.LERNA_TEST_TOKEN }}
