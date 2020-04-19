@@ -3,7 +3,7 @@ function packageFour() {
 }
 
 function wouldYouDispatchTwice() {
-    return "Maybe just once!";
+    return "Maybe just once!!";
 }
 
 exports.packageFour = packageFour;
