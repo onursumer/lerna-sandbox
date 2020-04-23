@@ -7,7 +7,7 @@ function wouldYouDispatchTwice() {
 }
 
 function canYouDispatchToPublish() {
-    return "hmm...";
+    return "yes, but sometimes";
 }
 
 exports.packageFour = packageFour;
