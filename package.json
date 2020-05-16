@@ -15,6 +15,9 @@
   "dependencies": {
     "lerna": "3.19.0"
   },
+  "engines": {
+    "yarn": "1.22.4"
+  },
   "scripts": {
     "publishModules": "./scripts/publish.sh",
     "updateVersion": "./scripts/version.sh"
