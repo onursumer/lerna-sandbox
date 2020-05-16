@@ -18,4 +18,4 @@ jobs:
         with:
           token: ${{ secrets.LERNA_SANDBOX_OWNER }}
           repository: onursumer/dispatch-listener
-          event-type: some-random-event
+          event-type: lerna-sandbox-package-update
